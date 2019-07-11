@@ -24,6 +24,6 @@ class App < Sinatra::Base
     @user_name1 = params[:num1]
     @user_name2 = params[:num2]
   
-    @user_name1.to_i * @user_name2.to_i
+    "#{@user_name1.to_i * @user_name2.to_i}"
   end
 end
