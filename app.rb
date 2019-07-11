@@ -25,6 +25,6 @@ class App < Sinatra::Base
     @user_name2 = params[:num2]
   
    product = @user_name1 * @user_name2
-  
+    return product
   end
 end
